@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(32, 32, 39);
+}
+
+#main{
+    margin: 0px 100px;
+}
+
+#top_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#top_menu img{
+    width: 200px;
+}
+
+#top_bt{
+    margin-top: 40px;
+}
+
+#top_bt button{
+    padding: 20px;
+    border: none;
+    background-color: rgb(32, 32, 39);
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+#top_bt button:hover{
+    background-color: rgb(42, 42, 51);
+    cursor: pointer;
+}
+
+#meio{
+    margin-top: 100px;
+    display: flex;
+}
+
+#meio img{
+    width: 330px;
+}
+
+#meio_texto{
+    color: azure;
+    text-align: center;
+    margin: 0px 100px;
+}
+
+#meio_texto h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+
+#meio_texto p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+.bold_text{
+    font-weight: bold;
+}
+
+.green_text{
+    color: rgb(71, 204, 175);
+    font-weight: bold;
+}
+
+#foot{
+    text-align: center;
+    margin: 0px 400px;
+    margin-top: 100px
+}
+
+#foot p{
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#linha{
+    border: 1px solid rgb(71, 204, 175);
+}
